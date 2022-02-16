@@ -1,0 +1,129 @@
+@import "null.css";
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Oswald:wght@300;400;700&family=Roboto:wght@700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Taviraj&display=swap');
+@font-face {
+    font-family: ProximaNova;
+    src: url(../fonts/ProximaNova-Bold.woff2) format("woff2"), url(../fonts/ProximaNova-Bold.woff) format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: ProximaNova;
+    src: url(../fonts/ProximaNova-Regular.woff2) format("woff2"), url(../fonts/ProximaNova-Regular.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: Lato;
+}
+
+.container {
+    max-width: 810px;
+    margin: 0 auto;
+}
+
+
+/* main */
+
+.main {
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+}
+
+.main__ul {
+    margin-bottom: 30px;
+}
+
+.hr__h1 {
+    font-family: Lato;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1E212C;
+    margin-bottom: 30px;
+}
+
+.hr__h2 {
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1E212C;
+}
+
+.hr__p-2 {
+    margin-bottom: 30px;
+}
+
+.hr__p3 {
+    padding-bottom: 30px;
+}
+
+.main__list-item {
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: left;
+    Line-height: 25px;
+    color: #1E212C;
+    margin-bottom: 10px;
+}
+
+.main__list-item::before {
+    content: "";
+    background: url(../img/check.png) 0px 3px no-repeat;
+    padding-left: 30px;
+}
+
+.main__btn {
+    width: 160px;
+    height: 40px;
+    padding: 10px 32px 10px 32px;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+    border-radius: 4px;
+    background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+}
+
+.main__btn:hover {
+    outline: 3px solid #b1aaaa;
+}
+
+
+/* footer */
+
+.footer__h3 {
+    max-width: 30%;
+    font-family: 'Taviraj', serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #333333;
+}
+
+.footer__h3::after {
+    content: "";
+    display: block;
+    width: 30%;
+    margin-top: 4px;
+    height: 2px;
+    background: #333333;
+}
